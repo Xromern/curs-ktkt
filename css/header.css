@@ -1,0 +1,242 @@
+*{
+     list-style:none;
+     text-decoration:none;
+     margin:0;
+     padding:0;    
+     font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+
+}
+ html{
+     overflow-x: hidden;
+     max-width: 1360px;
+     margin: 0 auto;
+     min-height: 100%;
+}
+ body {
+     background: #f2f2f2;
+}
+
+/*font-family: 'Roboto', sans-serif;
+*/
+ .header_top{
+     height: 70px;
+}
+ .info_user>div{
+     position: relative;
+}
+ .logo {
+     position:relative;
+     box-shadow: 1px 1px 0.5px rgba(154, 147, 140, 1), 1px 1px 5px rgba(255, 255, 255, 1);
+     z-index:111111;
+     left: 60px;
+     transition:all 1s ease;
+}
+ .nlogo{
+     height:30px;
+     margin-top:-120px;
+     transition: all 1s ease;
+}
+ .header_top_container_logo{
+     position: absolute;
+     transition: all 1s ease;
+     z-index: 99999;
+}
+ .header_midle{
+     height: 44px;
+
+     background-color: #163C94;
+     z-index: 9999;
+     width: 100%;
+}
+ .nheader_midle{
+     position: fixed !important;
+     transition:all 1s ease;
+     top:0;
+     opacity: 0.9;
+}
+ .nstacik_header_midle{
+     height: 43px;
+}
+/*Меню*/
+ .dws-menu *{
+     margin: 0;
+     padding: 0;
+     z-index: 9999;
+}
+ .nlogo_menu{
+     z-index: 999929;
+     background-image: url(../img/logo4.png) ;
+     width: 68px;
+     height: 42px;
+}
+ .dws-menu ul, .dws-menu ol{
+     list-style: none;
+}
+ .dws-menu > ul{
+     transition:all 1s ease;
+     display: flex;
+     margin-left: 300px;
+}
+ .nmenu_ul{
+     transition:all 1s ease;
+     margin-left: 50px !important;
+}
+ .dws-menu > ul li{
+     position: relative;
+}
+ .dws-menu > ul li > a i.fa{
+     position: absolute;
+     top: 15px;
+     left: 12px;
+     font-size: 18px;
+     white-space: nowrap;
+}
+ .menu_ul>li>a{
+     white-space: nowrap;
+}
+ .dws-menu > ul li a{
+     display: block;
+     background-color: #163C94;
+     padding: 11px 10px 11px 20px;
+     font-size: 14px;
+     color: black;
+     text-decoration: none;
+     text-transform:uppercase;
+}
+ .dws-menu > ul>li>a{
+     color:white;
+     font-weight: bold;
+     letter-spacing:1.2px;
+     font-size: 16px;
+}
+ .dws-menu li a:hover{
+     background-color: #0b2c63;
+     color: #ffffff;
+}
+/*sub menu*/
+ .dws-menu li ul{
+     position: absolute;
+     min-width: 200px;
+     display: none;
+}
+ .dws-menu li > ul li{
+     border: 1px solid #c7c8ca;
+}
+ .dws-menu li > ul li a{
+     padding: 5px;
+     text-transform: none;
+     background: white;
+}
+ .dws-menu li > ul li ul{
+     position: absolute;
+     right: -202px;
+     top: 0;
+}
+ .dws-menu li:hover > ul{
+     display: block;
+}
+/*==== MEDIA ====*/
+ .dws-menu [type="checkbox"], .dws-menu label.toggleSubmenu{
+     display: none;
+}
+ .toggleMenu{
+     color:white;
+}
+ .dws-menu label.toggleMenu{
+     background-color: #163C94;
+     display: none;
+     padding: 15px 40px;
+     text-transform: uppercase;
+     font-size: 14px;
+     cursor: pointer;
+     position: relative;
+}
+ .dws-menu label.toggleMenu .fa{
+     position: absolute;
+     top: 15px;
+     left: 12px;
+     font-size: 18px;
+}
+/*Конец Меню*/
+/*Слайдер*/
+ .container_slider{
+     position: absolute;
+     max-height: 320px;
+}
+ .slider_head img{
+     margin: 0;
+}
+ .slider_head{
+     overflow: hidden;
+     height: 320px;
+     position: relative;
+}
+ .slider::-moz-selection {
+     background: transparent;
+     color: #fff;
+     text-shadow: none;
+}
+ .slider::selection {
+     background: transparent;
+     color: #fff;
+     text-shadow: none;
+}
+ .slide-list {
+     position: relative;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+}
+ .slide-wrap {
+     position: relative;
+     width: 9000px;
+}
+ .slide-item {
+     float: left;
+}
+ .slide_prev, .slide_next{
+     cursor: pointer;
+     position: relative;
+     background-color: black;
+     opacity: 0.4;
+     width:60px;
+     height: 100%;
+    ;
+     display: inline-block;
+}
+ .slide_next{
+     float:right;
+}
+ .slider_head>img{
+     width:100%;
+     position: relative;
+}
+ .slider_head{
+     display: block;
+     margin: 0 auto;
+     max-width: 1360px;
+         box-shadow:  0.5px 0.5px 1.75px rgba(154, 147, 140, 0.5), 0.2px 0.2px 1.75px rgba(255, 255, 255, 1);
+
+}
+ .big_btn{
+     width:19%;
+     display: flex;
+     height: 100px;
+     background-color: #163C94;
+     opacity: 0.98;
+     justify-content: center;
+     align-items: center;
+     color:white;
+     font-size: 22px;
+     box-shadow: 0px 2px 1px rgba(154, 147, 140, 0.7);
+
+}
+ .big_btn:hover{
+     opacity: 1;
+}
+ .big_btns{
+     position: relative;
+     top:-50px;
+     display: flex;
+     justify-content: space-around;
+}

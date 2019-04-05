@@ -1,0 +1,195 @@
+.galery{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     min-width: 270px;
+     max-width: 1300px;
+     padding: 20px;
+     margin: 0 auto;
+}
+ .flipper {
+     width:270px;
+     height:370px;
+     background-color:rgb(255, 255, 255);
+     box-sizing:border-box;
+     box-shadow: 1px 1px 2.5px rgba(154, 147, 140, 0.5), 0.5px 0.5px 2.5px rgba(255, 255, 255, 1);
+     color:#676a6c;
+     margin-bottom: 20px;
+     transform-style: preserve-3d;
+     transition: .4s linear;
+}
+ .front, .back {
+     box-sizing: border-box;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     backface-visibility: hidden;
+     overflow: hidden;
+     background: white;
+}
+ .front {
+     z-index: 2;
+     transform: rotateY(0deg);
+}
+ .back {
+     transform: rotateY(-180deg);
+     background: white;
+}
+ .container_folder{
+     -webkit-perspective: 1200;
+     perspective: 1200;
+     -webkit-transform-style: preserve-3d;
+     -moz-transform-style: preserve-3d;
+     transform-style: preserve-3d;
+}
+ .container_folder:hover .flipper{
+     transform: rotateY(180deg);
+}
+ .container_folder .image {
+     width: 278px;
+     height: 250px;
+     display: flex;
+     justify-content: center;
+}
+ .image img{
+     position: absolute;
+     max-width: 240px;
+     max-height: 240px;
+     align-self: center;
+}
+ .image img:nth-child(1){
+     transform: rotate(-10deg);
+}
+ .image img:nth-child(2){
+     transform: rotate(10deg);
+}
+ .id_folder{
+     display: inline-block;
+}
+ .info_folder{
+     float: right;
+}
+ .description_folder{
+     color:#676a6c;
+     font-size: 12px;
+     padding: 0 10px;
+     line-height: 15px;
+}
+ .folder_title{
+     color: #1e5ad1;
+     font-size: 16px;
+     line-height:14px;
+     font-family: 'Roboto Slab', serif;
+}
+ .folder_text{
+     color:#222222;
+     font-size: 12px;
+     margin-top: 3px;
+     line-height:15px;
+     font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+ .container_photos{
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     width: 290px;
+     height: 290px;
+     background-color: #fff;
+     border: 1px solid #dedede;
+     box-shadow: 0px 0px 70px #B7B7B7 inset,0px 5px 10px #000 ;
+     overflow:hidden;
+     margin-right: 10px;
+     cursor: pointer;
+}
+ .container_photos:nth-child(4n){
+     margin-right: 0;
+}
+ .container_photos img{
+     max-width: 290px;
+     max-height: 290px;
+     align-self: center;
+     display: flex;
+     transition: all 1s ease-out;
+}
+ .container_photos:hover img{
+     transform: scale(1.1);
+}
+ .slider_glery{
+     max-height: 600px;
+     max-width: 900px;
+}
+ .close_slider{
+     position: fixed;
+     z-index: 10001;
+     right: 0;
+     top: 0;
+     margin: 20px;
+     cursor: pointer;
+}
+ .next{
+     position: fixed;
+     z-index: 10001;
+     right: 0;
+     cursor: pointer;
+}
+ .prev_next{
+     position: fixed;
+     z-index: 10001;
+     left: 0;
+     cursor: pointer;
+}
+ .button_slider1{
+     position: fixed;
+     z-index: 10001;
+     left: 0;
+     bottom: 0;
+     cursor: pointer;
+     width:120px;
+     height:45px;
+     background-color:#1a4cb6;
+     display:block;
+     margin-left:20px;
+     margin-bottom:30px;
+     color:#ffffff;
+     text-align:center;
+}
+ .button_slider1{
+     bottom:90px;
+}
+ .fixed{
+     z-index: 9999;
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     top: 0;
+     left: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     overflow: auto;
+}
+ .mini_url{
+     display: inline-block;
+}
+ .mini_url>div{
+     display: flex;
+     justify-content: center;
+     height: 84px;
+     width: 84px;
+     box-shadow: 1px 1px 2.5px rgba(154, 147, 140, 0.5), 0.5px 0.5px 2.5px rgba(255, 255, 255, 1);
+     margin: 0.9px;
+}
+ .mini_url>div>img{
+     display: flex;
+     align-self: center;
+     max-height: 80px;
+     max-width: 80px;
+     position: absolute;
+}
+.pagenation{
+    width: 320px;
+}  .pagenation_a,.current{
+      width: 35px !important;
+    } 

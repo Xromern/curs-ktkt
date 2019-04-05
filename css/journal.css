@@ -1,0 +1,641 @@
+.main_conainer{
+    padding-top: 40px;
+    width: 820px;
+    margin: 0 auto;
+    min-height: 400px;
+    font-family: 'Roboto Slab', serif;
+}
+.container_group:first-child{
+    margin-top: 40px;
+}
+table{
+      font-family: 'Roboto Slab', serif;
+}
+.container_group{
+    display: inline-block;
+    margin-right: 10px;
+    width: 260px;
+    height: 120px;
+    box-shadow: 0 0 2px #000;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+
+    border-top: 2px solid #149EEA;
+
+}
+.container_group:hover{
+    background-color: #163C94;
+    color: #fff;
+
+}
+.logo_group{
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+}
+.abr_group{
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: 5px solid #163C94;
+}
+
+.abr_group:first-letter{
+    color: #163C94;
+}
+.info_group{
+    font-size: 14px;
+    width: 90%;
+}
+.field_block_2 {
+    box-shadow:  0.5px 0.5px 1.75px rgba(154, 147, 140, 0.5), 0.2px 0.2px 1.75px rgba(255, 255, 255, 1);
+
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+    
+.container_group:first-child{
+    margin-top: 10px;
+}
+.container_group{
+    display: inline-block;
+    margin-right: 10px;
+    width: 390px;
+    height: 120px;
+    box-shadow:  0.5px 0.5px 1.75px rgba(154, 147, 140, 0.5), 0.2px 0.2px 1.75px rgba(255, 255, 255, 1);
+
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+border-left:3px solid #163C94;
+
+}
+.container_group:hover{
+background-color: #163C94;
+color: #fff;
+
+}
+.name_predmet{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container_prdmet.group_name{
+    background-color: #fff;  
+    box-shadow:  0.5px 0.5px 1.75px rgba(154, 147, 140, 0.5), 0.2px 0.2px 1.75px rgba(255, 255, 255, 1);
+}
+
+.container_prdmet{
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top:20px;
+}
+.student{
+    font-size: 40px;
+    text-align: center;
+    padding-top:25px;
+}
+.button_journal_change{
+    display: inline-block;
+}
+
+
+.select_teacher {
+    margin-left: 15px;
+}
+
+.field_input_group_name {
+    margin-left: 35px;
+}
+
+.button_journal_change {
+    width: 100px;
+    display: inline-block;
+}
+
+.button_journal_delete {
+    width: 100px;
+    display: inline-block;
+    float: right;
+}
+
+
+.select_group {
+    margin-left: 37px;
+}
+
+.input_predmet_name {
+    margin-left: 35px;
+}
+
+.table_student {
+    width: 100%;
+
+}
+
+.tr_student {
+    box-shadow:  2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+
+
+}
+.td_student {
+    width: 95%;;
+    padding: 5px;
+}
+
+.td_delete_student {
+    cursor: pointer;
+    font-weight: bold;
+    color: #163c94;
+    text-align: center;
+
+}
+
+.td_delete_student:hover {
+    background-color: #163c94;
+    color: white;
+
+}
+.add_journal{
+    box-shadow:  2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+
+    background-color: #fff;
+    padding: 5px;
+   
+}
+.preloader{
+    margin: 0 auto;
+    width: 220px;
+}
+
+input{
+    box-shadow: none;
+    font-size: 16px;
+    color:#000;
+}
+
+.list-teacher>td{
+    border:3px solid black ;
+
+}
+.show-teacher-name input,.show-teacher-code input{
+    width: 350px;
+}
+.list-teacher{
+    width: 100%;    
+}
+/*show-student*/
+.show-student input{
+    box-shadow: none;
+    font-size: 16px;
+    color:#000;
+}
+.show-student .preloader{
+    margin: 0 auto;
+    width: 220px;
+}
+.show-student .list-student>td{
+    border:3px solid black ;
+
+}
+.show-student .show-student-name input,.show-student-code input{
+    width: 350px;
+}
+.show-student .list-student{
+    width: 100%;    
+}
+.show-student .button_journal{
+    display: inline-block;
+    width: 170px !important;
+    box-shadow: none;
+    border:1px solid #163c94;
+}
+.button_journal.add{
+    font-size: 16px;
+}
+/*form6*/
+.form6 .table .row:hover {
+    background-color: #c9daff;
+}
+
+.form6 .table .hov-column {
+    background-color: #c9daff;
+}
+
+.form6 .table td {
+    padding: 3px;
+}
+.form6 .td_progul{
+    cursor: pointer;    
+}
+.form6 .form6_day{
+    width: 25px;
+}
+.form6 .table td:hover {
+    background-color: #4970cc !important;
+    color: #fff;
+}
+
+.form6 .table .journal-table-date:hover {
+    background-color: #42b6f4 !important;
+    color: #fff;
+}
+
+
+.form6.main_conainer {
+    margin: 0;
+    width: 100%;
+}
+
+.form6 td,
+.form6 th {
+    border: 1px solid #000;
+}
+
+.form6 table {
+    border-collapse: collapse;
+    width: 1100px;
+    background-color: #fff;   
+    width: 1100px;
+    margin: 0 auto;
+}
+.form6 .table_id{
+    width: 23px !important;
+}
+
+.form6 .table input:active,
+.form6 .table input:hover,
+.form6 .table input:focus {
+    outline: none !important;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.form6 .table  input {
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    border: 1px solid red !important;
+    width: 100% !important;
+    height: 27px !important;
+    text-align: center;
+
+}
+.form6 .month{
+    width: 200px;
+    margin-left:100px;
+}
+
+.form6 .all_missed{
+    font-size: 12px;
+    width:10px;
+}
+/*journal*/
+.journal .table.ver .row:hover {
+    background-color: #c9daff;
+}
+
+.journal .table.ver .hov-column {
+    background-color: #c9daff;
+}
+
+.journal .table td {
+    padding: 3px;
+}
+
+.journal .table td:hover {
+    background-color: #4970cc !important;
+    color: #fff;
+}
+
+.journal .journal-table-marks,
+.journal .journal-table-date {
+    cursor: pointer;
+}
+
+.journal .table .journal-table-date:hover {
+    background-color: #42b6f4 !important;
+    color: #fff;
+}
+
+
+.journal.main_conainer {
+    margin: 0;
+    width: 100%;
+}
+
+.journal td,
+.journal th {
+    border: 1px solid #000;
+}
+
+
+.journal table {
+    width: 1100px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 1100px;
+    background-color: #fff
+}
+
+.journal .head-journal th:nth-child(1) {
+    width: 20px;
+}
+
+.journal .head-journal th:nth-child(2) {
+    width: 350px;
+}
+
+.journal .journal-table-date {
+    max-width: 27px;
+    min-width: 27px;
+}
+
+.journal .journal-table-marks {
+    text-align: center;
+    max-width: 27px;
+    min-width: 27px;
+}
+
+.journal .row td:last-child {
+    width: 30px;
+}
+
+.journal .table input:active,
+.journal .table input:hover,
+.journal .table input:focus {
+    outline: none !important;
+    outline-offset: 0;
+    box-shadow: none;
+}
+
+.journal .table  input {
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    border: 1px solid red !important;
+    width: 100% !important;
+    height: 27px !important;
+    text-align: center;
+
+}
+
+.journal .form_date_journal {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(52, 54, 66, 0.9);
+    z-index: 99999;
+    overflow-y: auto;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+.journal .form_date_journal.is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.journal .form_date_journal_container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background: #FFF;
+    margin: 0 auto;
+    cursor: auto;
+    margin-top: 150px;
+    padding: 10px;
+
+}
+
+.journal .is-visivle {
+    opacity: 1;
+    visibility: visible;
+}
+
+.journal .form_date_journal_container input[type="date"] {
+    width: 150px !important;
+    height: 20px !important;
+    box-shadow: none !important;
+
+}
+
+.journal .form_date_journal_container * {
+    margin: 0;
+
+}
+
+.journal .form_date_journal_container textarea {
+    margin-top: 10px;
+    width: 580px;
+    height: 200px;
+    box-shadow: none;
+    padding: 5px;
+}
+
+.journal .button_jounal_date {
+    width: 150px;
+    height: 27px;
+    background-color: #163C94;
+}
+
+.journal .form_date_journal .button_journal {
+    width: 100px;
+}
+.journal .editor{
+    width: 850px;
+    margin: 0 auto;
+}
+.journal input{
+    box-shadow: none;
+}
+.journal .student_{
+    width:400px;
+    display: inline-block;
+}
+
+.journal .student_ td:nth-child(2){
+    width:350px;
+
+}
+.journal .student_ td:nth-child(1){
+    width:20px;
+}
+.journal .student_select{
+    padding: 0;
+}
+.journal input.date_journal_date{
+    width: 200px !important;
+}
+.journal .student_ td{
+   border-color: #fff;
+    padding:2px;
+    cursor: pointer;
+}
+
+.journal .student_no{
+    float:right;
+}
+.journal .student_yes tr{
+    background-color: #adffb5;
+}
+.journal .student_yes tr:hover{
+ background-color: #ffc9c9;
+}
+
+.journal .student_no tr{
+    background-color: #ffc9c9;
+}
+.journal .student_no tr:hover{
+    background-color: #adffb5;
+}
+
+.journal .rewmove-student,.add-student{
+    font-size: 22px;
+
+}
+.journal .preloader{
+    display: none;
+}
+.journal hr,.form6 hr{
+    width: 1100px !important;
+    margin: 20px auto;
+    border-color: #163C94;
+}
+.form6 .table a, .journal .table a,.show-student a{
+    text-decoration: none;
+    color:#000;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.form6 .download, .journal .download{
+    margin: 30px auto;
+    
+}
+.form6 .download a, .journal .download a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+}
+.form6 .download a:hover,.journal .download a:hover{
+    color:#163C94;
+}
+/*show_student*/
+.about_group .student_{
+    width:400px;
+    display: inline-block;
+
+}
+.about_group .student_ td:nth-child(2){
+    width:350px;
+}
+.about_group .student_ td:nth-child(1){
+    width:20px;
+}
+.about_group .student_select{
+    padding: 0;
+}
+.about_group .student_ td{
+
+    padding:2px;
+    cursor: pointer;
+}
+.about_group .student_no{
+    float:right;
+}
+.about_group .student_yes tr{
+    background-color: #adffb5;
+}
+.student_yes tr:hover{
+ background-color: #ffc9c9;
+}
+
+.about_group .student_no tr{
+    background-color: #ffc9c9;
+}
+.about_group .student_no tr:hover{
+    background-color: #adffb5;
+}
+
+.about_group .rewmove-student,.add-student{
+    font-size: 22px;
+
+}
+.about_group .add_journal{
+    display: none;
+    margin-top:20px;
+}
+
+.about_group .add_journal,.hidden_add_journal{
+    display: none;
+}
+.about_group .button_delete,.button_change{
+    display: inline-block;
+}
+.about_group .button_delete{
+    float: right;
+    width: 150px;
+    margin-right: 20px;
+}
+
+/*select*/
+.field_block_1 select{
+
+    margin-bottom: 20px;
+}
+.field_block_1 input{
+  margin-bottom: 20px;
+
+  
+}
+.main_conainer select{
+        height: 35px;
+    font-size: 15px;
+    width:300px; 
+}
+
+.main_conainer input{
+    
+      padding: 6px 20px 6px 10px;
+   border: 1px solid #d2d8d8;
+     border-bottom: 3px solid #163c94;
+
+    width:300px;
+}
+/*header*/
+.header_top_container_logo{
+    display: none;
+}
+.logo_menu{
+    display: block;
+}
+.user1{
+    margin-top:50px;
+    width: 450px;
+    display:flex;   
+    justify-content: space-around;
+}
+.user1 a{
+    margin: 0 !important;   
+}
+.dws-menu > ul{
+    margin-left: 20px;
+}
+.pagenation{
+   max-width: 900px;
+}
+.header_top{
+    height: 0;
+}

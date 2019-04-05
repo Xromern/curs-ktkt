@@ -1,0 +1,32 @@
+
+<IfModule dir_module>
+    DirectoryIndex index.php
+php_flag display_errors On
+php_flag output_buffering On
+php_value error_reporting 2047
+</IfModule>
+
+AddDefaultCharset utf-8
+
+
+RewriteEngine on
+      RewriteRule news/id/([0-9]+)$ ?s=news&id=$1 
+      RewriteRule news/page/([0-9]+)$ ?s=news&page=$1 
+
+      RewriteRule gallery$ ?s=galery
+      RewriteRule gallery/page/([0-9]+)$ ?s=galery&n=$1 
+     
+      RewriteRule galery/folder/([0-9]+)$ ?s=galery&folder=$1 
+      
+      RewriteRule group$ ?s=show_group
+
+      RewriteRule group/([0-9]+)$ ?s=about_group&id_group=$1
+      RewriteRule teacher$ ?s=show_teacher
+      RewriteRule formS$ ?s=formS
+      RewriteRule journal$ ?s=journal_show
+      RewriteRule formS/([0-9]+)$ ?s=formS&id_group=$1 
+      RewriteRule formS/student/([0-9]+)$ ?s=formS&id_student=$1 
+      RewriteRule group([0-9]+)/predmet/([0-9]+)$ ?s=journal_show&id_group=$1&id_predmet=$2
+      RewriteRule group_student/([0-9]+)$ ?s=show_student&id_group=$1 
+      RewriteRule journal/student/([0-9]+)$ ?s=journal_show&id_student=$1    
+      RewriteRule info_group$ ?s=about_group 
